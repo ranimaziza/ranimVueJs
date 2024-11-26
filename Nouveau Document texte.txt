@@ -1,0 +1,72 @@
+  data() {
+    return {
+      products: [
+        {
+          id: 1,
+          name: "Disque Dur Interne HIKSEMI WAVE 512Go SSD SATA III",
+          description:
+            "Capacité de stockage: 512 Go - Type de Disque Dur: SSD - Interface: SATA III- Vitesse en lecture: 530 Mo/s - Vitesse en écriture: 450 Mo/s- Support de stockage: NAND 3D",
+          price: 129.0,
+          image: require("./assets/images/disquedur1.png"),
+          quantite: 9,
+          solde: true,
+          discount: 100,
+        },
+        {
+          id: 2,
+          name: "Disque Dur Externe VERBATIM 1 To SSD USB 3.2 - Noir",
+          description:
+            "Capacité: 1 To - Interface: USB 3.2 Gen.1  avec connexion USB-C - Type Disque Dur: SSD - Vitesses de transfert de données allant jusqu à 5 Gbits/s - Résister aux coups et aux chocs",
+          price: 275.0,
+          image: require("./assets/images/disquedur2.png"),
+          quantite: 8,
+          solde: true,
+          discount: 8,
+        },
+        {
+          id: 3,
+          name: "Disque Dur Interne HIKSEMI WAVE Pro 1024Go SSD PCIe",
+          description:
+            "Capacité de stockage: 1024 Go - Type de Disque Dur: SSD - Interface: PCIe - Vitesse en écriture: 2450 Mo/s - Support de stockage: NAND 3D ",
+          price: 229.0,
+          image: require("./assets/images/disquedur3.png"),
+          quantite: 5,
+          solde: false,
+          discount: 10,
+        },
+        {
+          id: 4,
+          name: "Disque Dur Externe TWINMOS ELITE DRIVE 1To SSD TYPE C - Gold",
+          description:
+            "Capacité de Stockage: 1To - Type de disque dur: SSD - Interface: USB Type C - Vitesse en lecture: 580 Mo/s- Résistant aux chocs",
+          price: 249.0,
+          image: require("./assets/images/disquedur4.png"),
+          quantite: 0,
+          solde: false,
+          discount: 70,
+        },
+        {
+          id: 4,
+          name: "Disque Dur Externe TWINMOS ELITE DRIVE 1To SSD TYPE C - Gold",
+          description:
+            "Capacité de Stockage: 1To - Type de disque dur: SSD - Interface: USB Type C - Vitesse en lecture: 580 Mo/s- Résistant aux chocs",
+          price: 249.0,
+          image: require("./assets/images/disquedur4.png"),
+          quantite: 0,
+          solde: false,
+          discount: 70,
+        },
+        {
+          id: 4,
+          name: "Disque Dur Externe TWINMOS ELITE DRIVE 1To SSD TYPE C - Gold",
+          description:
+            "Capacité de Stockage: 1To - Type de disque dur: SSD - Interface: USB Type C - Vitesse en lecture: 580 Mo/s- Résistant aux chocs",
+          price: 249.0,
+          image: require("./assets/images/disquedur4.png"),
+          quantite: 0,
+          solde: false,
+          discount: 70,
+        },      
+	],
+      panier: [], // Panier initialement vide
+    };
